@@ -1,0 +1,271 @@
+
+.homepage.content {
+    width: 100%;
+/*    float: none;
+    clear: both;
+    position: relative;
+    z-index: 0;*/
+	min-height: 350px;
+    }
+.stage {
+    position: relative;
+	color: #fff;
+    }
+.stage_wrapper h1 {
+    width: 600px;
+    text-shadow: 3px 3px 5px #000;
+    font-size: 30px;
+    position: absolute;
+    top: 15%;
+    left: 100px;
+display: none;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Chroma(Color=#333333) progid:DXImageTransform.Microsoft.DropShadow(Color=#333333, OffX=2, OffY=2)"
+    }
+.stage_wrapper h1.dark {
+    color: #005499
+    }
+.stage_wrapper h1.bright {
+    color: white
+    }
+.stage img.keyvisual {
+    position: absolute;
+    width: 100%;
+min-width: 960px;
+min-height: 350px;
+    z-index: 0;
+    display: none
+    }
+.stage .active img.keyvisual {
+    display: block
+    }
+.stage .wrapper {
+    position: relative;
+    height: 100%; 
+    }
+.heightFix img {
+    position: relative;
+    width: 100%;
+    visibility: hidden
+    }
+.stage_wrapper {
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto 3em auto;
+    padding: 0 20px;
+    z-index: 2;
+    }
+.stage_wrapper .large_staging_teaser {
+    display: none;
+    position: absolute;
+    width: 27%;
+    max-width: 300px;
+    min-height: 120px;
+    margin: 0 0 0 0;
+    top: 20px;
+    right: 40px
+    }
+.stage_wrapper .large_staging_teaser div {
+    position: relative
+    }
+.stage_wrapper .large_staging_teaser div.box {
+    background: white;
+    background: rgba(255, 255, 255, 0.9);
+    -webkit-box-shadow: 1px 1px 2px #000;
+    -moz-box-shadow: 1px 1px 2px #000;
+    box-shadow: 1px 1px 2px #000
+    }
+.stage_wrapper .large_staging_teaser div.box h2 {
+    padding: 12px 12px 0 12px
+    }
+.stage_wrapper .large_staging_teaser div.box h3 {
+    padding: 0 12px 3px 12px
+    }
+.stage_wrapper .large_staging_teaser div.box .image, .stage_wrapper .large_staging_teaser div.box .text, .stage_wrapper .large_staging_teaser div.box p {
+    padding: 5px 12px 0 12px
+    }
+.stage_wrapper .large_staging_teaser div.box .image {
+    margin-bottom: 5px
+    }
+.stage_wrapper .large_staging_teaser h3 {
+    margin-bottom: 0
+    }
+.stage_wrapper .large_staging_teaser p {
+    margin-bottom: 1em;
+	color: #fff;
+    }
+.stage_wrapper .large_staging_teaser .image.portrait {
+    float: left;
+    width: 40%;
+    margin: 0 0.75em 2em 0
+    }
+.stage_wrapper .large_staging_teaser .image.landscape {
+    width: 95%;
+    margin: 0 0 1em 0
+    }
+.stage_wrapper .large_staging_teaser .image img {
+    width: 100%
+    }
+.stage_wrapper .large_staging_teaser a.standalone {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: #005499;
+    background-position: 0 6px
+    }
+.stage_wrapper .large_staging_teaser a.standalone:hover {
+    xtext-decoration: none
+    }
+.stage .ir a {
+    float: right
+    }
+.stage_wrapper .sections {
+    margin: 0;
+    width: 100%;
+    }
+.stage_wrapper .sections > div {
+    float: left;
+    list-style: none;
+    margin: 0 30px 2em 0;
+    width: 30%;
+    position: relative;
+    height: 150px
+    }
+.stage_wrapper .sections div.content {
+    position: absolute;
+    display: block;
+    background: white;
+    width: 90%;
+    height: 116px;
+    margin: 0;
+    padding: 8px 10px 6px 20px;
+    bottom: 0;
+    list-style: none;
+    filter: inherit;
+    -webkit-box-shadow: 1px 1px 2px #333;
+    -moz-box-shadow: 1px 1px 2px #333;
+    box-shadow: 1px 1px 2px #333
+    }
+.stage_wrapper .sections .element1 div.content{ background: rgba(255, 255, 255, 0.9) url('img/rect-gas.png') left 10px no-repeat; }
+.stage_wrapper .sections .element2 div.content{ background: rgba(255, 255, 255, 0.9) url('img/rect-water.png') left 10px no-repeat; }
+.stage_wrapper .sections .element3 div.content{ background: rgba(255, 255, 255, 0.9) url('img/rect-energy.png') left 10px no-repeat; }
+
+
+.stage_wrapper .sections h2 {
+    color: #005499;
+    font-size: 14px;
+    margin-bottom: 0.25em
+    }
+.stage_wrapper .sections h3 {
+    color: #2B93C9;
+    font-size: 12px
+    }
+.stage_wrapper .sections .content.active {
+    background: #005499;
+    background: rgba(0, 84, 153, 0.9)
+    }
+.stage_wrapper .sections .element1 div.content.active{ background: rgba(0, 84, 153, 0.9) url('img/rect-gas.png') left 10px no-repeat; }
+.stage_wrapper .sections .element2 div.content.active{ background: rgba(0, 84, 153, 0.9) url('img/rect-water.png') left 10px no-repeat; }
+.stage_wrapper .sections .element3 div.content.active{ background: rgba(0, 84, 153, 0.9) url('img/rect-energy.png') left 10px no-repeat; }
+
+.stage_wrapper .sections .active h2 {
+    color: white
+    }
+.stage_wrapper .sections .active h3 {
+    color: #fe9800
+    }
+.stage_wrapper .sections .additional {
+    display: none
+    }
+.stage_wrapper .sections .additional a{
+    font-size: 1em;
+    color: white;
+    background-position: 0 -2198px
+    }
+.stage_wrapper .sections .additional, .stage_wrapper .sections .additional h4 {
+    color: white
+    }
+.stage_wrapper .sections p {
+    display: block;
+    color: #fff;
+    }
+.stage_wrapper .compactlinks-head {
+    background-position: right -389px;
+    margin-bottom: 5px
+    }
+.stage_wrapper .sections .compactlinks-wrap {
+    background: white;
+    color: #005499;
+    width: 100%
+    }
+.stage_wrapper .compactlinks-wrap ul {
+    width: 94.5% !important;
+    padding: 5px 5px 7px 5px;
+    overflow-x: none;
+    -webkit-box-shadow: 2px 2px 2px #333;
+    -moz-box-shadow: 2px 2px 2px #333;
+    box-shadow: 2px 2px 2px #333
+    }
+.stage_wrapper .compactlinks ul a, .stage_wrapper ul .compactlinks b {
+    padding: 4px 0 0 5px;
+    width: 91%
+    }
+.content .col-cra {
+    margin: 0 0 1em 0
+    }
+.content .col-cra .media, .content .col-cra .media.left, .content .col-cra .media.right {
+    width: 100%
+    }
+.homepage.content .col .col {
+    width: 48%;
+    float: left
+    }
+.homepage.content .col .col + .col {
+    margin-left: 4%
+    }
+	/* homepage */
+	.stage_wrapper .sections {
+	    position: absolute;
+	    margin: 0;
+	    bottom: 0;
+	    width: 900px;
+	    }
+	.stage_wrapper h1 {
+	    font-size: 40px
+	    }
+	.stage_wrapper {
+	    padding: 0 40px
+	    }
+	.stage_wrapper .sections > div {
+	    max-width: 180px;
+	    margin-bottom: 0
+	    }
+	.stage_wrapper .sections h2 {
+	    font-size: 18px
+	    }
+	.stage_wrapper .sections h3 {
+	    font-size: 15px
+	    }
+	.stage_wrapper .sections .additional p {
+	    min-height: 50px
+	    }
+	.stage_wrapper .large_staging_teaser {
+	    display: block
+	    }
+	.newslist {
+	    margin: 0 0 2em 1em
+	    }
+	.homepage.content .col .col + .col {
+	    margin-left: 2%
+	    }
+
+
+
+
+
+
+
+
+
+
+
+

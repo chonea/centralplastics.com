@@ -1,0 +1,19 @@
+
+
+
+.gfcp-1col .field-name-field-basic-image img,
+.gfcp-1col .field-name-field-product-listing-image img,
+.gfcp-1col .view-view-of-children .gfcp-child-block img{ width: 100%; height: auto; }
+
+.gfcp-1col .view-view-of-children .views-row-odd .gfcp-child-block{ margin-left: 0; }
+.gfcp-1col .view-view-of-children .views-row-even .gfcp-child-block{ margin-right: 0; }
+
+.gfcp-1col .view-view-of-children .gfcp-child-block{ height: 160px; margin-top: 10px; margin-bottom: 20px; }
+.gfcp-1col .view-view-of-children .gfcp-child-block h3{ font-size: 14px; }
+
+
+
+.gfcp-1col .field-name-field-listing-image img,
+.gfcp-1col .field-name-field-product-listing-image img{ width: 100%; height: auto; }
+
+.field-name-title a{ text-decoration: none; }
